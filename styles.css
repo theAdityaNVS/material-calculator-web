@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
 .btn {
     width: 50px;
     height: 50px;
@@ -24,6 +26,7 @@
 .calci-display {
     width: 195px;
     margin: 5px;
+    margin-bottom: 20px ;
     font-size: 25px;
     padding: 10px;
     border: 0.5px solid rgba(0, 0, 0, 0.1);
@@ -65,7 +68,7 @@
 }
 
 main {
-    margin-top: 20px;
+    margin: 50px;
 }
 
 .container {
@@ -74,12 +77,75 @@ main {
 }
 
 html {
-    background: #757575
+    background: #757575;
+    height: 100%;
+    overflow: auto;
 }
 
 .calci-frame {
     padding: 20px;
-    border: 0.3px solid #E8E8EA;
+    /* border: 0.3px solid #E8E8EA; */
     border-radius: 10px;
     background: #424242;
+}
+
+header {
+    justify-content: center;
+    background: #424242;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 0 0 20px 20px;
+}
+
+header h1 {
+    font-weight: 100;
+    text-transform: capitalize;
+    color: #E8E8EA;
+    background: #757575;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+footer {
+    padding: 40px 0 0 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container-footer {
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    background: #424242;
+}
+
+.container-footer img {
+    width: 250px;
+    height: auto;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    display: inline-block;
+    font-size: 15px;
+    color: #6a6a6a;
+}
+
+.github-link img {
+    width: 200px;
+    height: auto;
+    margin: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.github-link img:hover {
+    box-shadow: 0 0 8px #98CA2B, 0 0 10px #000;
 }
