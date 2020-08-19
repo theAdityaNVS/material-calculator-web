@@ -8,7 +8,8 @@ Actually Aimed for Chrome Extension
 
 ## Work In Progress ⚙️
 - Make It More Scalable for Large and Plus Screen Sizes.
-- Change Background Color
-- Add Dark Mode
+- ~~Change Background Color~~
+- ~~Add Dark Mode~~
+- Toggle between Dark and Bright Mode.
 - Release Chrome Extension (Very Soon)
 - Make Android App Version
