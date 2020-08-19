@@ -74,5 +74,12 @@ main {
 }
 
 html {
-    background: linear-gradient(to right, #E8E8EA, #2A485D);
+    background: #757575
+}
+
+.calci-frame {
+    padding: 20px;
+    border: 0.3px solid #E8E8EA;
+    border-radius: 10px;
+    background: #424242;
 }
