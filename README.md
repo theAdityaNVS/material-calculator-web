@@ -4,7 +4,7 @@ Minimalistic and Responsive Web Calculator with Material Design Colors !!
 ```
 Actually Aimed for Chrome Extension
 ```
-### Its Live 👉 [Material Calculator](https://theadityanvs.github.io/material-calculator-web/)
+### Its Live 👉 [Material Calculator](https://theadityanvs.github.io/the-material-calculator-web/)
 
 ## Work In Progress ⚙️
 - Make It More Scalable for Large and Plus Screen Sizes.
