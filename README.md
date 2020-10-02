@@ -1,4 +1,4 @@
-# material-calculator-web
+# the-material-calculator-web
 
 Minimalistic and Responsive Web Calculator with Material Design Colors !!
 ```
